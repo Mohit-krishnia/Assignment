@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Assign it to a variable called users and use the 'user_id' as index
+# here i save the raw data to my notpad and by upload in jupyter notebook i use it
 user=pd.read_csv("data.txt",sep='|',index_col=0)
 
 # printing first 10 and last 10 ro
