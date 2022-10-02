@@ -36,9 +36,6 @@ idx=df.groupby(by=['continent','gdp_per_capita'])['gdp_per_capita'].min()
 idx.sort_values(ascending=True)
 
 ''# # Filter the dataframe with only this columns['continent','location','date','total_cases','total_deaths','gdp_per_capita','human_development_index']
-# df_1=df.filter(['continent','location','date','total_cases','total_deaths','gdp_per_capita','human_development_index'])
-# s=df.update(df_1)
-# s
 df1=df.groupby(by='continent')['continent','location','date','total_cases','total_deaths','gdp_per_capita','human_development_index']
 df.update(df1)
 df1.head()
