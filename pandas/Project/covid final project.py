@@ -1,5 +1,5 @@
 import pandas as pd
-
+# github link not opening directly by read_csv maybe firewall issue but by VPN i download and paste in notepad and from there i read it
 df=pd.read_csv('covid.txt',sep=',')
 df
 
