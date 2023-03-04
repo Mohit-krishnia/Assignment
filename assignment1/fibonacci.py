@@ -11,8 +11,4 @@ for value in range(1,x-1):
    a=b
    b=c
    print(c,end=" ")
-   ar.append(c)
-print()
-print("Every next number is found by adding up the two numbers before it")
-for i in ar:
-   print(i+1,end=" ")
+   
