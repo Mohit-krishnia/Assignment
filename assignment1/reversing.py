@@ -1,4 +1,4 @@
-print("Enter the string ")
-print("input : ",end="")
-s=str(input())
-print("output :",s[::-1])
+a=input("Enter the String :")
+b=a[::-1]
+for i in b:
+    print(i,end="")
